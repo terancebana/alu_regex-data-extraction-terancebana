@@ -1,0 +1,7 @@
+{
+  "status": "rejected",
+  "security_check": "failed",
+  "data": {},
+  "rejected": [],
+  "message": "Input contains potentially malicious content"
+}

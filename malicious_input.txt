@@ -1,0 +1,24 @@
+Attempted Attack Vectors Test File
+
+This file contains malicious patterns that should be rejected:
+
+SQL Injection Attempt:
+Email: user@example.com'; DROP TABLE users;--
+Contact: admin' OR '1'='1
+
+XSS Attack:
+<script>alert('XSS')</script>
+<img src="x" onerror="alert('hack')">
+javascript:alert(document.cookie)
+
+Path Traversal:
+../../../etc/passwd
+File: ../../../../sensitive/data
+
+Encoded Attacks:
+%00null_byte
+%0d%0aHTTP_Response_Splitting
+
+Normal looking but dangerous:
+https://evil.com/page?redirect=javascript:alert(1)
+<iframe src="malicious.html"></iframe>

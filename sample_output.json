@@ -1,0 +1,83 @@
+{
+  "status": "success",
+  "security_check": "passed",
+  "data": {
+    "emails": [
+      "j********h@company.co.uk",
+      "j***********4@gmail.com",
+      "s*********s@company.co.uk",
+      "m************3@techfirm.com",
+      "s*****t@example-store.com",
+      "m*****r@internal.company.com"
+    ],
+    "urls": [
+      "https://www.example-store.com/orders/status",
+      "https://subdomain.example.org/help/contact",
+      "https://internal.example.com/tickets/45821"
+    ],
+    "phone_numbers": [
+      "(555) 123-4567",
+      "555.987.6543",
+      "555-456-7890"
+    ],
+    "credit_cards": [
+      "4111********1111",
+      "5500********0004"
+    ],
+    "time_formats": [
+      "14:30",
+      "2:45 PM",
+      "9:30 AM",
+      "14:00",
+      "6:30 PM",
+      "10:15 AM"
+    ],
+    "html_tags": [
+      "<div class=\"error-container\">",
+      "<p>",
+      "<img src=\"error-icon.png\" alt=\"Error Icon\">"
+    ],
+    "hashtags": [
+      "#CustomerService",
+      "#OrderSupport",
+      "#RefundRequest"
+    ],
+    "currency": [
+      "$1,234.56",
+      "$999.99",
+      "$49.95"
+    ]
+  },
+  "rejected": [
+    {
+      "type": "phone_numbers",
+      "value": "024-7854",
+      "reason": "validation_failed"
+    },
+    {
+      "type": "phone_numbers",
+      "value": "111 1111",
+      "reason": "validation_failed"
+    },
+    {
+      "type": "phone_numbers",
+      "value": "111 1111",
+      "reason": "validation_failed"
+    },
+    {
+      "type": "phone_numbers",
+      "value": "500-0000",
+      "reason": "validation_failed"
+    },
+    {
+      "type": "phone_numbers",
+      "value": "000-0004",
+      "reason": "validation_failed"
+    },
+    {
+      "type": "phone_numbers",
+      "value": "782 8224",
+      "reason": "validation_failed"
+    }
+  ]
+}
